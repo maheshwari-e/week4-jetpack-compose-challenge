@@ -78,4 +78,13 @@ dependencies {
 
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
+
+    //Nav Controller Library
+    implementation "androidx.navigation:navigation-compose:1.0.0-alpha09"
+
+    //State Library
+    implementation 'androidx.compose.runtime:runtime-livedata:1.0.0-beta02'
+
+    //ViewModel Library
+    implementation "androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha03"
 }
